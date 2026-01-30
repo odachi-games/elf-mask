@@ -1,0 +1,4 @@
+Base path: 'D:/SteamLibrary/2022.3.20f1/Editor/Data', plugins path 'D:/SteamLibrary/2022.3.20f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: shutdown
