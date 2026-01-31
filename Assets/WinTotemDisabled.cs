@@ -19,7 +19,10 @@ public class WinTotemDisabled : MonoBehaviour
 
     private void OnDisable()
     {
-        GameEventManager.Instance.Unsubscribe(totemDisabledEvent, OnTotemDisabled);
+        if (GameEventManager.Instance != null)
+        {
+            GameEventManager.Instance.Unsubscribe(totemDisabledEvent, OnTotemDisabled);
+        }
     }
 
     private void OnTotemDisabled(GameEvent e)
@@ -41,7 +44,5 @@ public class WinTotemDisabled : MonoBehaviour
 
         GameEvent winEvent = new GameEvent("WinGame", this.gameObject);
         GameEventManager.Instance.TriggerEvent(winEvent);
-
-        this.enabled = false;
     }
 }
