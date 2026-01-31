@@ -59,11 +59,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Totem.cs" />
     <Compile Include="Assets\Scripts\Inventory\Items\ItemWeapon.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerExp.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCDialogue.cs" />
     <Compile Include="Assets\Scripts\Enemy\FSM\Decisions\DecisionAttackRange.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventorySlot.cs" />
+    <Compile Include="Assets\WinTotemDisabled.cs" />
     <Compile Include="Assets\Scripts\Enemy\FSM\Actions\ActionAttack.cs" />
     <Compile Include="Assets\BayatGames\SaveGameFree\Scripts\Types\Color32Save.cs" />
     <Compile Include="Assets\Scripts\Events\GameEventManager.cs" />
@@ -74,10 +76,12 @@
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Managers\WeaponManager.cs" />
     <Compile Include="Assets\Scripts\Weapon\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Totem\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerUpgrade.cs" />
     <Compile Include="Assets\Scripts\Inventory\Items\ItemExtra.cs" />
     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\Quest\QuestCardNPC.cs" />
+    <Compile Include="Assets\PauseController.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Text\DamageText.cs" />
     <Compile Include="Assets\BayatGames\SaveGameFree\Scripts\SaveGameAuto.cs" />
@@ -104,6 +108,7 @@
     <Compile Include="Assets\Scripts\Managers\CoinManager.cs" />
     <Compile Include="Assets\Scripts\Managers\SelectionManager.cs" />
     <Compile Include="Assets\Scripts\Extra\IDamageable.cs" />
+    <Compile Include="Assets\LoseManager.cs" />
     <Compile Include="Assets\Scripts\Extra\Singleton.cs" />
     <Compile Include="Assets\Scripts\Enemy\FSM\FSMTransition.cs" />
     <Compile Include="Assets\Scripts\Enemy\FSM\FSMAction.cs" />
@@ -122,6 +127,7 @@
     <Compile Include="Assets\Scripts\Events\Trigger2Event.cs" />
     <Compile Include="Assets\Scripts\Quest\QuestManager.cs" />
     <Compile Include="Assets\Scripts\Loot\LootManager.cs" />
+    <Compile Include="Assets\TotemInteraction.cs" />
     <Compile Include="Assets\BayatGames\SaveGameFree\Scripts\Types\MeshSave.cs" />
     <Compile Include="Assets\BayatGames\SaveGameFree\Scripts\Types\ColorSave.cs" />
     <Compile Include="Assets\BayatGames\SaveGameFree\Scripts\SaveGameWeb.cs" />
