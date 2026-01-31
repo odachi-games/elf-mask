@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\NPC\NPCDialogue.cs" />
     <Compile Include="Assets\Scripts\Enemy\FSM\Decisions\DecisionAttackRange.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventorySlot.cs" />
+    <Compile Include="Assets\WinTotemDisabled.cs" />
     <Compile Include="Assets\Scripts\Enemy\FSM\Actions\ActionAttack.cs" />
     <Compile Include="Assets\BayatGames\SaveGameFree\Scripts\Types\Color32Save.cs" />
     <Compile Include="Assets\Scripts\Events\GameEventManager.cs" />
@@ -108,6 +109,7 @@
     <Compile Include="Assets\Scripts\Managers\CoinManager.cs" />
     <Compile Include="Assets\Scripts\Managers\SelectionManager.cs" />
     <Compile Include="Assets\Scripts\Extra\IDamageable.cs" />
+    <Compile Include="Assets\LoseManager.cs" />
     <Compile Include="Assets\Scripts\Extra\Singleton.cs" />
     <Compile Include="Assets\Scripts\Enemy\FSM\FSMTransition.cs" />
     <Compile Include="Assets\Scripts\Enemy\FSM\FSMAction.cs" />
