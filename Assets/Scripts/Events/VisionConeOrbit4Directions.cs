@@ -1,14 +1,20 @@
 using UnityEngine;
 
+[RequireComponent(typeof(LineRenderer))]
 public class VisionConeOrbit4Directions : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform npc;
     [SerializeField] private NPCMovement npcMovement;
+    [SerializeField] private LineRenderer lineRenderer;
 
-    [Header("Vision")]
+    [Header("Vision Settings")]
     [SerializeField] private float radius = 2f;
     [SerializeField] private float changeInterval = 1f;
+
+    [Header("Line Offset")]
+    [SerializeField] private Vector3 startOffset;
+    [SerializeField] private Vector3 endOffset;
 
     public Vector2 CurrentDirection { get; private set; }
 
@@ -23,12 +29,38 @@ public class VisionConeOrbit4Directions : MonoBehaviour
     private int currentIndex;
     private float timer;
 
+    void Awake()
+    {
+        if (lineRenderer == null)
+            lineRenderer = GetComponent<LineRenderer>();
+
+        SetupDefaultLineMaterial();
+        lineRenderer.positionCount = 2;
+    }
+
+    private void SetupDefaultLineMaterial()
+    {
+        if (lineRenderer.sharedMaterial == null)
+        {
+            lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
+        }
+
+        lineRenderer.startColor = Color.red;
+        lineRenderer.endColor = new Color(1f, 0f, 0f, 0f);
+    }
+
     void Update()
     {
         if (!npc || !npcMovement) return;
 
-        Vector2 dir;
+        HandleDirection();
+        UpdateTransformPosition();
+        UpdateLineRenderer();
+    }
 
+    private void HandleDirection()
+    {
+        Vector2 dir;
         if (!npcMovement.IsMoving)
         {
             timer += Time.deltaTime;
@@ -43,31 +75,24 @@ public class VisionConeOrbit4Directions : MonoBehaviour
         {
             timer = 0f;
             dir = npcMovement.MoveDirection;
-            if (dir == Vector2.zero)
-                dir = Vector2.down;
+            if (dir == Vector2.zero) dir = Vector2.down;
         }
 
         CurrentDirection = dir;
-
         npcMovement.LookAtDirection(CurrentDirection);
+    }
 
+    private void UpdateTransformPosition()
+    {
         transform.position = (Vector2)npc.position + CurrentDirection * radius;
         transform.right = CurrentDirection;
+    }
 
-        if (!npcMovement.IsMoving)
-        {
-            string dirName = CurrentDirection switch
-            {
-                { x: 0, y: 1 } => "UP",
-                { x: 1, y: 0 } => "RIGHT",
-                { x: 0, y: -1 } => "DOWN",
-                { x: -1, y: 0 } => "LEFT",
-                _ => $"({CurrentDirection.x:F1}, {CurrentDirection.y:F1})"
-            };
+    private void UpdateLineRenderer()
+    {
+        if (lineRenderer == null) return;
 
-            Debug.Log($"[VISION] Parado → Olhando para: {dirName} | Direção: {CurrentDirection}", npc);
-            
-            Debug.DrawRay(npc.position, (Vector3)CurrentDirection * radius, Color.red);
-        }
+        lineRenderer.SetPosition(0, npc.position + startOffset);
+        lineRenderer.SetPosition(1, transform.position + endOffset);
     }
 }
