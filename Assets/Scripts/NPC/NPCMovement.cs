@@ -4,8 +4,9 @@ public class NPCMovement : MonoBehaviour
 {
     [Header("Config")]
     [SerializeField] private float moveSpeed;
-    [SerializeField] private float waitTime = 2f; // 🔥 tempo parado no waypoint
+    [SerializeField] private float waitTime = 2f;
 
+    private readonly int moving = Animator.StringToHash("Moving");
     private readonly int moveX = Animator.StringToHash("MoveX");
     private readonly int moveY = Animator.StringToHash("MoveY");
 
@@ -37,30 +38,32 @@ public class NPCMovement : MonoBehaviour
         }
 
         Vector3 nextPos = waypoint.GetPosition(currentPointIndex);
-
         float distance = Vector3.Distance(transform.position, nextPos);
+
         IsMoving = distance > 0.05f;
+        animator.SetBool(moving, IsMoving);
 
-        UpdateMoveValues(nextPos);
-
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            nextPos,
-            moveSpeed * Time.deltaTime
-        );
-
-        if (distance <= 0.2f)
+        if (IsMoving)
         {
-            // chegou → para
+            UpdateMoveValues(nextPos);
+
+            transform.position = Vector3.MoveTowards(
+                transform.position,
+                nextPos,
+                moveSpeed * Time.deltaTime
+            );
+        }
+
+        if (distance <= 0.1f)
+        {
             IsMoving = false;
-            MoveDirection = Vector2.zero;
+            animator.SetBool(moving, false);
+            
             isWaiting = true;
             waitTimer = 0f;
 
-            previousPos = nextPos;
             currentPointIndex = (currentPointIndex + 1) % waypoint.Points.Length;
-
-            // animação idle
+            
             animator.SetFloat(moveX, 0);
             animator.SetFloat(moveY, 0);
         }
@@ -78,17 +81,21 @@ public class NPCMovement : MonoBehaviour
 
     private void UpdateMoveValues(Vector3 nextPos)
     {
-        Vector2 dir = Vector2.zero;
+        Vector2 dir = ((Vector2)nextPos - (Vector2)transform.position).normalized;
 
-        if (previousPos.x < nextPos.x) dir = Vector2.right;
-        else if (previousPos.x > nextPos.x) dir = Vector2.left;
-        else if (previousPos.y < nextPos.y) dir = Vector2.up;
-        else if (previousPos.y > nextPos.y) dir = Vector2.down;
+        if (dir.magnitude < 0.1f) return;
 
-        MoveDirection = dir;
+        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+        {
+            MoveDirection = dir.x > 0 ? Vector2.right : Vector2.left;
+        }
+        else
+        {
+            MoveDirection = dir.y > 0 ? Vector2.up : Vector2.down;
+        }
 
-        animator.SetFloat(moveX, dir.x);
-        animator.SetFloat(moveY, dir.y);
+        animator.SetFloat(moveX, MoveDirection.x);
+        animator.SetFloat(moveY, MoveDirection.y);
     }
 
     public void LookAtDirection(Vector2 dir)
