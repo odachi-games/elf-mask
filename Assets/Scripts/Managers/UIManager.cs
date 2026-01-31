@@ -1,101 +1,71 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    [Header("Stats")]
+    [Header("Stats Reference")]
     [SerializeField] private PlayerStats stats;
 
     [Header("Bars")]
     [SerializeField] private Image healthBar;
+    [SerializeField] private Image suspicionBar;
 
-    [Header("Text")]
+    [Header("Texts")]
     [SerializeField] private TextMeshProUGUI healthTMP;
+    [SerializeField] private TextMeshProUGUI suspicionTMP;
 
-    [Header("Stats Panel")]
-    [SerializeField] private GameObject statsPanel;
-    [SerializeField] private TextMeshProUGUI statDamageTMP;
-    [SerializeField] private TextMeshProUGUI statCChanceTMP;
-    [SerializeField] private TextMeshProUGUI statCDamageTMP;
-    [SerializeField] private TextMeshProUGUI attributePointsTMP;
-    [SerializeField] private TextMeshProUGUI strengthTMP;
-    [SerializeField] private TextMeshProUGUI dexterityTMP;
-    [SerializeField] private TextMeshProUGUI intelligenceTMP;
+    private float targetSuspicionFill;
+    private float displaySuspicionValue;
 
-    [Header("Extra Panels")]
-    [SerializeField] private GameObject npcQuestPanel;
-    [SerializeField] private GameObject playerQuestPanel;
+    private void Start()
+    {
+        if (stats != null && healthBar != null)
+            healthBar.fillAmount = stats.Health / stats.MaxHealth;
+
+        if (suspicionBar != null)
+            suspicionBar.fillAmount = 0;
+    }
 
     private void Update()
     {
         UpdatePlayerUI();
     }
 
-    public void OpenCloseStatsPanel()
+    public void UpdateSuspicionValue(float current, float max)
     {
-        statsPanel.SetActive(!statsPanel.activeSelf);
-        if (statsPanel.activeSelf)
-        {
-            UpdateStatsPanel();
-        }
+        displaySuspicionValue = current;
+        targetSuspicionFill = current / max;
     }
 
-    public void OpenCloseNPCQuestPanel(bool value)
+    public void ForceFullSuspicion()
     {
-        npcQuestPanel.SetActive(value);
-    }
-
-    public void OpenClosePlayerQuestPanel(bool value)
-    {
-        playerQuestPanel.SetActive(value);
+        targetSuspicionFill = 1f;
+        displaySuspicionValue = 100f;
+        if (suspicionBar != null) suspicionBar.fillAmount = 1f;
+        if (suspicionTMP != null) suspicionTMP.text = "100%";
     }
 
     private void UpdatePlayerUI()
     {
-        healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount,
-            stats.Health / stats.MaxHealth, 10f * Time.deltaTime);
-
-        healthTMP.text = $"{stats.Health} / {stats.MaxHealth}";
-    }
-
-    private void UpdateStatsPanel()
-    {
-        statDamageTMP.text = stats.TotalDamage.ToString();
-        statCChanceTMP.text = stats.CriticalChance.ToString();
-        statCDamageTMP.text = stats.CriticalDamage.ToString();
-
-        attributePointsTMP.text = $"Points: {stats.AttributePoints}";
-        strengthTMP.text = stats.Strength.ToString();
-        dexterityTMP.text = stats.Dexterity.ToString();
-        intelligenceTMP.text = stats.Intelligence.ToString();
-    }
-
-    private void UpgradeCallback()
-    {
-        UpdateStatsPanel();
-    }
-
-    private void ExtraInteractionCallback(InteractionType type)
-    {
-        switch (type)
+        if (stats != null && healthBar != null)
         {
-            case InteractionType.Quest:
-                OpenCloseNPCQuestPanel(true);
-                break;
+            healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount, stats.Health / stats.MaxHealth, 10f * Time.deltaTime);
+
+            if (healthTMP != null)
+            {
+                healthTMP.text = $"{Mathf.CeilToInt(stats.Health)} / {stats.MaxHealth}";
+            }
         }
-    }
 
-    private void OnEnable()
-    {
-        PlayerUpgrade.OnPlayerUpgradeEvent += UpgradeCallback;
-        DialogueManager.OnExtraInteractionEvent += ExtraInteractionCallback;
-    }
+        if (suspicionBar != null)
+        {
+            suspicionBar.fillAmount = Mathf.Lerp(suspicionBar.fillAmount, targetSuspicionFill, 10f * Time.deltaTime);
 
-    private void OnDisable()
-    {
-        PlayerUpgrade.OnPlayerUpgradeEvent -= UpgradeCallback;
-        DialogueManager.OnExtraInteractionEvent -= ExtraInteractionCallback;
+            if (suspicionTMP != null)
+            {
+                suspicionTMP.text = $"{Mathf.CeilToInt(displaySuspicionValue)}%";
+            }
+        }
     }
 }

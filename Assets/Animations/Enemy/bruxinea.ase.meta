@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: bruxinea_Frame_0
     originalName: 
-    pivot: {x: 1.0789474, y: -0.82417583}
+    pivot: {x: 1.0789474, y: -0.83486235}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 523
-      y: 4
-      width: 380
-      height: 546
+      x: 90
+      y: 245
+      width: 76
+      height: 109
     spriteID: cab75b3016568604da8b1b3aaff58371
     spriteBone: []
     spriteOutline: []
@@ -140,18 +140,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 523, y: 4}
+    uvTransform: {x: 90, y: 245}
   - name: bruxinea_Frame_1
     originalName: 
-    pivot: {x: 1.0833334, y: -0.82417583}
+    pivot: {x: 1.0833334, y: -0.83486235}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 911
-      y: 1128
-      width: 360
-      height: 546
+      x: 258
+      y: 360
+      width: 72
+      height: 109
     spriteID: fb3a160064a10364ab786ef0f149258f
     spriteBone: []
     spriteOutline: []
@@ -160,18 +160,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 911, y: 1128}
+    uvTransform: {x: 258, y: 360}
   - name: bruxinea_Frame_2
     originalName: 
-    pivot: {x: 1.0810812, y: -0.8093525}
+    pivot: {x: 1.0810812, y: -0.81981975}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 523
-      y: 2217
-      width: 370
-      height: 556
+      x: 174
+      y: 121
+      width: 74
+      height: 111
     spriteID: d4e7dcf4f71de024e9ec3ce6c549375a
     spriteBone: []
     spriteOutline: []
@@ -180,18 +180,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 523, y: 2217}
+    uvTransform: {x: 174, y: 121}
   - name: bruxinea_Frame_3
     originalName: 
-    pivot: {x: 1.0810812, y: -0.8093525}
+    pivot: {x: 1.0810812, y: -0.81981975}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 523
-      y: 2781
-      width: 370
-      height: 556
+      x: 174
+      y: 240
+      width: 74
+      height: 111
     spriteID: 1cb7ff33378961e45b9cd296af8ed104
     spriteBone: []
     spriteOutline: []
@@ -200,18 +200,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 523, y: 2781}
+    uvTransform: {x: 174, y: 240}
   - name: bruxinea_Frame_4
     originalName: 
-    pivot: {x: 1.0789474, y: -0.80213904}
+    pivot: {x: 1.0789474, y: -0.81249994}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 3411
-      width: 380
-      height: 561
+      x: 90
+      y: 125
+      width: 76
+      height: 112
     spriteID: 0c120f930156b2c4eb00a4e8f84d33fc
     spriteBone: []
     spriteOutline: []
@@ -220,7 +220,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 3411}
+    uvTransform: {x: 90, y: 125}
   - name: bruxinea_Frame_5
     originalName: 
     pivot: {x: 1.0769231, y: -0.8035714}
@@ -229,9 +229,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1141
-      width: 390
-      height: 560
+      y: 125
+      width: 78
+      height: 112
     spriteID: 87c945d8aa1a1e54d847202f325aa7c0
     spriteBone: []
     spriteOutline: []
@@ -240,18 +240,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1141}
+    uvTransform: {x: 4, y: 125}
   - name: bruxinea_Frame_6
     originalName: 
-    pivot: {x: 1.0769231, y: -0.8093525}
+    pivot: {x: 1.0769231, y: -0.81981975}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 1709
-      width: 390
-      height: 556
+      y: 245
+      width: 78
+      height: 111
     spriteID: c6a2d903a4252074cb03543c933ecff3
     spriteBone: []
     spriteOutline: []
@@ -260,18 +260,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1709}
+    uvTransform: {x: 4, y: 245}
   - name: bruxinea_Frame_7
     originalName: 
-    pivot: {x: 1.0810812, y: -0.81374323}
+    pivot: {x: 1.0810812, y: -0.82727265}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 911
-      y: 567
-      width: 370
-      height: 553
+      x: 258
+      y: 242
+      width: 74
+      height: 110
     spriteID: 315e4999426cd234db1ddf14247649fc
     spriteBone: []
     spriteOutline: []
@@ -280,18 +280,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 911, y: 567}
+    uvTransform: {x: 258, y: 242}
   - name: bruxinea_Frame_8
     originalName: 
-    pivot: {x: 1.0789474, y: -0.82417583}
+    pivot: {x: 1.0789474, y: -0.83486235}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 523
-      y: 558
-      width: 380
-      height: 546
+      x: 90
+      y: 362
+      width: 76
+      height: 109
     spriteID: 3390b7f7975e1b04e896f27d882bc8c1
     spriteBone: []
     spriteOutline: []
@@ -300,18 +300,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 523, y: 558}
+    uvTransform: {x: 90, y: 362}
   - name: bruxinea_Frame_9
     originalName: 
-    pivot: {x: 1.0789474, y: -0.8287293}
+    pivot: {x: 1.0789474, y: -0.8425926}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 523
-      y: 1666
-      width: 380
-      height: 543
+      x: 340
+      y: 4
+      width: 76
+      height: 108
     spriteID: 193db8a63bbd8524a99b4069aa7d2f36
     spriteBone: []
     spriteOutline: []
@@ -320,18 +320,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 523, y: 1666}
+    uvTransform: {x: 340, y: 4}
   - name: bruxinea_Frame_10
     originalName: 
-    pivot: {x: 1.0833334, y: -0.82417583}
+    pivot: {x: 1.0833334, y: -0.83486235}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 911
-      y: 1682
-      width: 360
-      height: 546
+      x: 340
+      y: 120
+      width: 72
+      height: 109
     spriteID: 528886973a637cd4c807caf15b89acb6
     spriteBone: []
     spriteOutline: []
@@ -340,7 +340,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 911, y: 1682}
+    uvTransform: {x: 340, y: 120}
   - name: bruxinea_Frame_11
     originalName: 
     pivot: {x: 1.0810812, y: -0.8108108}
@@ -348,10 +348,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 911
-      y: 4
-      width: 370
-      height: 555
+      x: 174
+      y: 359
+      width: 74
+      height: 111
     spriteID: db6a63ece2e81d64fbf8f5acc5ed3c7a
     spriteBone: []
     spriteOutline: []
@@ -360,18 +360,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 911, y: 4}
+    uvTransform: {x: 174, y: 359}
   - name: bruxinea_Frame_12
     originalName: 
-    pivot: {x: 1.0810812, y: -0.8093525}
+    pivot: {x: 1.0810812, y: -0.81981975}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 523
-      y: 3345
-      width: 370
-      height: 556
+      x: 258
+      y: 4
+      width: 74
+      height: 111
     spriteID: 05b3993b52121cb43bceacb8dc896045
     spriteBone: []
     spriteOutline: []
@@ -380,18 +380,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 523, y: 3345}
+    uvTransform: {x: 258, y: 4}
   - name: bruxinea_Frame_13
     originalName: 
-    pivot: {x: 1.0789474, y: -0.795053}
+    pivot: {x: 1.0789474, y: -0.8053097}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 2837
-      width: 380
-      height: 566
+      x: 90
+      y: 4
+      width: 76
+      height: 113
     spriteID: e10e86fb39688b94e8bb7b07c0b938bd
     spriteBone: []
     spriteOutline: []
@@ -400,7 +400,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2837}
+    uvTransform: {x: 90, y: 4}
   - name: bruxinea_Frame_14
     originalName: 
     pivot: {x: 1.0769231, y: -0.7964602}
@@ -409,9 +409,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 568
-      width: 390
-      height: 565
+      y: 4
+      width: 78
+      height: 113
     spriteID: dd49ef091ad485240829ef674afc4e1f
     spriteBone: []
     spriteOutline: []
@@ -420,18 +420,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 568}
+    uvTransform: {x: 4, y: 4}
   - name: bruxinea_Frame_15
     originalName: 
-    pivot: {x: 1.0769231, y: -0.8093525}
+    pivot: {x: 1.0769231, y: -0.81981975}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 2273
-      width: 390
-      height: 556
+      y: 364
+      width: 78
+      height: 111
     spriteID: bb55e6bf819aae844b54993aee37202d
     spriteBone: []
     spriteOutline: []
@@ -440,18 +440,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2273}
+    uvTransform: {x: 4, y: 364}
   - name: bruxinea_Frame_16
     originalName: 
-    pivot: {x: 0.78277886, y: -0.8093525}
+    pivot: {x: 1.0810812, y: -0.81981975}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
-      width: 511
-      height: 556
+      x: 258
+      y: 123
+      width: 74
+      height: 111
     spriteID: 0b946920697bcd143af1a96ca8981fac
     spriteBone: []
     spriteOutline: []
@@ -460,18 +460,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 258, y: 123}
   - name: bruxinea_Frame_17
     originalName: 
-    pivot: {x: 1.0789474, y: -0.82417583}
+    pivot: {x: 1.0789474, y: -0.83486235}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 523
-      y: 1112
-      width: 380
-      height: 546
+      x: 174
+      y: 4
+      width: 76
+      height: 109
     spriteID: 113a5f72d155ecd4c93dac5f27bcb87b
     spriteBone: []
     spriteOutline: []
@@ -480,7 +480,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 523, y: 1112}
+    uvTransform: {x: 174, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -493,146 +493,146 @@ ScriptedImporter:
     - name: bruxinea_Frame_0
       frameIndex: 0
       cellRect:
-        x: 230
-        y: 450
-        width: 380
-        height: 546
+        x: 46
+        y: 91
+        width: 76
+        height: 109
       spriteId: cab75b3016568604da8b1b3aaff58371
     - name: bruxinea_Frame_1
       frameIndex: 1
       cellRect:
-        x: 250
-        y: 450
-        width: 360
-        height: 546
+        x: 50
+        y: 91
+        width: 72
+        height: 109
       spriteId: fb3a160064a10364ab786ef0f149258f
     - name: bruxinea_Frame_2
       frameIndex: 2
       cellRect:
-        x: 240
-        y: 450
-        width: 370
-        height: 556
+        x: 48
+        y: 91
+        width: 74
+        height: 111
       spriteId: d4e7dcf4f71de024e9ec3ce6c549375a
     - name: bruxinea_Frame_3
       frameIndex: 3
       cellRect:
-        x: 240
-        y: 450
-        width: 370
-        height: 556
+        x: 48
+        y: 91
+        width: 74
+        height: 111
       spriteId: 1cb7ff33378961e45b9cd296af8ed104
     - name: bruxinea_Frame_4
       frameIndex: 4
       cellRect:
-        x: 230
-        y: 450
-        width: 380
-        height: 561
+        x: 46
+        y: 91
+        width: 76
+        height: 112
       spriteId: 0c120f930156b2c4eb00a4e8f84d33fc
     - name: bruxinea_Frame_5
       frameIndex: 5
       cellRect:
-        x: 220
-        y: 450
-        width: 390
-        height: 560
+        x: 44
+        y: 90
+        width: 78
+        height: 112
       spriteId: 87c945d8aa1a1e54d847202f325aa7c0
     - name: bruxinea_Frame_6
       frameIndex: 6
       cellRect:
-        x: 220
-        y: 450
-        width: 390
-        height: 556
+        x: 44
+        y: 91
+        width: 78
+        height: 111
       spriteId: c6a2d903a4252074cb03543c933ecff3
     - name: bruxinea_Frame_7
       frameIndex: 7
       cellRect:
-        x: 240
-        y: 450
-        width: 370
-        height: 553
+        x: 48
+        y: 91
+        width: 74
+        height: 110
       spriteId: 315e4999426cd234db1ddf14247649fc
     - name: bruxinea_Frame_8
       frameIndex: 8
       cellRect:
-        x: 230
-        y: 450
-        width: 380
-        height: 546
+        x: 46
+        y: 91
+        width: 76
+        height: 109
       spriteId: 3390b7f7975e1b04e896f27d882bc8c1
     - name: bruxinea_Frame_9
       frameIndex: 9
       cellRect:
-        x: 230
-        y: 450
-        width: 380
-        height: 543
+        x: 46
+        y: 91
+        width: 76
+        height: 108
       spriteId: 193db8a63bbd8524a99b4069aa7d2f36
     - name: bruxinea_Frame_10
       frameIndex: 10
       cellRect:
-        x: 250
-        y: 450
-        width: 360
-        height: 546
+        x: 50
+        y: 91
+        width: 72
+        height: 109
       spriteId: 528886973a637cd4c807caf15b89acb6
     - name: bruxinea_Frame_11
       frameIndex: 11
       cellRect:
-        x: 240
-        y: 450
-        width: 370
-        height: 555
+        x: 48
+        y: 90
+        width: 74
+        height: 111
       spriteId: db6a63ece2e81d64fbf8f5acc5ed3c7a
     - name: bruxinea_Frame_12
       frameIndex: 12
       cellRect:
-        x: 240
-        y: 450
-        width: 370
-        height: 556
+        x: 48
+        y: 91
+        width: 74
+        height: 111
       spriteId: 05b3993b52121cb43bceacb8dc896045
     - name: bruxinea_Frame_13
       frameIndex: 13
       cellRect:
-        x: 230
-        y: 450
-        width: 380
-        height: 566
+        x: 46
+        y: 91
+        width: 76
+        height: 113
       spriteId: e10e86fb39688b94e8bb7b07c0b938bd
     - name: bruxinea_Frame_14
       frameIndex: 14
       cellRect:
-        x: 220
-        y: 450
-        width: 390
-        height: 565
+        x: 44
+        y: 90
+        width: 78
+        height: 113
       spriteId: dd49ef091ad485240829ef674afc4e1f
     - name: bruxinea_Frame_15
       frameIndex: 15
       cellRect:
-        x: 220
-        y: 450
-        width: 390
-        height: 556
+        x: 44
+        y: 91
+        width: 78
+        height: 111
       spriteId: bb55e6bf819aae844b54993aee37202d
     - name: bruxinea_Frame_16
       frameIndex: 16
       cellRect:
-        x: 240
-        y: 450
-        width: 511
-        height: 556
+        x: 48
+        y: 91
+        width: 102
+        height: 111
       spriteId: 0b946920697bcd143af1a96ca8981fac
     - name: bruxinea_Frame_17
       frameIndex: 17
       cellRect:
-        x: 230
-        y: 450
-        width: 380
-        height: 546
+        x: 46
+        y: 91
+        width: 76
+        height: 109
       spriteId: 113a5f72d155ecd4c93dac5f27bcb87b
     linkedCells: []
     parentIndex: -1
@@ -664,4 +664,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 1280, y: 1440}
+  canvasSize: {x: 256, y: 288}
