@@ -12,10 +12,6 @@ public class TotemInteraction : MonoBehaviour
             _currentTotem.ProgressInteraction(Time.deltaTime);
         }
 
-        if (Input.GetKeyUp(interactionKey) && _currentTotem != null)
-        {
-            _currentTotem.ResetTimer();
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -30,7 +26,6 @@ public class TotemInteraction : MonoBehaviour
     {
         if (_currentTotem != null && other.gameObject == _currentTotem.gameObject)
         {
-            _currentTotem.ResetTimer();
             _currentTotem = null;
         }
     }
