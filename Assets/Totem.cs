@@ -17,10 +17,13 @@ public class Totem : MonoBehaviour
     private bool _startedInteracting;
     private SpriteRenderer _sr;
 
+    private Animator _animator;
+
     private void Awake()
     {
         _sr = GetComponent<SpriteRenderer>();
-        
+        _animator = GetComponent<Animator>();
+
         if (progressSlider != null)
         {
             progressSlider.maxValue = interactionTime;
@@ -54,22 +57,25 @@ public class Totem : MonoBehaviour
     }
 
     private void CompleteTotem()
+{
+    _isCompleted = true;
+
+    if (_animator != null)
     {
-        _isCompleted = true;
-
-        if (progressSlider != null)
-        {
-            progressSlider.gameObject.SetActive(false);
-        }
-
-        if (completedSprite != null)
-        {
-            _sr.sprite = completedSprite;
-        }
-
-        GameEvent e = new GameEvent(eventToEmit, this.gameObject);
-        GameEventManager.Instance.TriggerEvent(e);
-
-        this.enabled = false;
+        _animator.SetBool("isCompleted", true);
+        _animator.enabled = false; 
     }
+
+    if (progressSlider != null) progressSlider.gameObject.SetActive(false);
+
+    if (completedSprite != null)
+    {
+        _sr.sprite = completedSprite;
+    }
+
+    GameEvent e = new GameEvent(eventToEmit, this.gameObject);
+    GameEventManager.Instance.TriggerEvent(e);
+
+    this.enabled = false;
+}
 }
