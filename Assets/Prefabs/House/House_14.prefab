@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1037102429026855177}
   - component: {fileID: 3420500692311187672}
   - component: {fileID: 7338672495914631443}
+  - component: {fileID: 2011234368803605922}
   m_Layer: 0
   m_Name: House_14
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1837032051
-  m_SortingLayer: 1
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 151751710, guid: 331325470a86393439eae1b351c27b8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -158,3 +159,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &2011234368803605922
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54490301650392952}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: -4157816999461832872, guid: 6587b7372796ec44698f52f15e85e980, type: 3}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
