@@ -35,7 +35,7 @@ public class GameEventManager
     {
         if (eventListeners.TryGetValue(gameEvent.EventName, out var listeners))
         {
-            //Debug.Log("[EVENT] " + gameEvent.EventName);
+            Debug.Log("[EVENT] " + gameEvent.EventName);
             listeners?.Invoke(gameEvent);
         }
     }

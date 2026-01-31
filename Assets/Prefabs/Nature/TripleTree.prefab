@@ -92,7 +92,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7659535681441959265, guid: 057ecc2b39545ff48bbfc3cc841a247c, type: 3}
       propertyPath: m_SortingLayerID
-      value: -774611893
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659535681441959265, guid: 057ecc2b39545ff48bbfc3cc841a247c, type: 3}
       propertyPath: m_SpriteSortPoint
@@ -166,7 +166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7659535681441959265, guid: 057ecc2b39545ff48bbfc3cc841a247c, type: 3}
       propertyPath: m_SortingLayerID
-      value: -774611893
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659535681441959265, guid: 057ecc2b39545ff48bbfc3cc841a247c, type: 3}
       propertyPath: m_SpriteSortPoint
@@ -240,7 +240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7659535681441959265, guid: 057ecc2b39545ff48bbfc3cc841a247c, type: 3}
       propertyPath: m_SortingLayerID
-      value: -774611893
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659535681441959265, guid: 057ecc2b39545ff48bbfc3cc841a247c, type: 3}
       propertyPath: m_SpriteSortPoint
