@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9fe6df04385f54746a61b1fa171c0124
+guid: 1b13b633ff85ad14e9dc6b5c0f0f9bb6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639054630187860787
+  platformSettingsDirtyTick: 639054682842956907
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: RunEnemy_Frame_0
+  - name: Run_Right_Frame_0
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 42
       height: 32
-    spriteID: 00bc89e9085c88544a3fad4921e36d8c
+    spriteID: 090fdc6888c11e646805e650cb7a34db
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 4}
-  - name: RunEnemy_Frame_1
+  - name: Run_Right_Frame_1
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 41
       height: 33
-    spriteID: e12557a67c9de254098a1646cb568d64
+    spriteID: 1c0ff92f809278e47b3168475d5c5b02
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: RunEnemy_Frame_2
+  - name: Run_Right_Frame_2
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 45
       width: 38
       height: 32
-    spriteID: ec7dd39c5a802bd478dbb78419f6b8a0
+    spriteID: e54db730225dae34c9a0b192140a75d7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 45}
-  - name: RunEnemy_Frame_3
+  - name: Run_Right_Frame_3
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 85
       width: 35
       height: 32
-    spriteID: 8c4ae296d2f014242b931fb5a9c756fb
+    spriteID: b88b6d250f138554796f7f4a6cce0bb3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 85}
-  - name: RunEnemy_Frame_4
+  - name: Run_Right_Frame_4
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 44
       width: 36
       height: 33
-    spriteID: ef088f93fdce1ab42934e77eece865e5
+    spriteID: b659de7ed7df7f440bc73d93b2e8b7b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 44}
-  - name: RunEnemy_Frame_5
+  - name: Run_Right_Frame_5
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 85
       width: 38
       height: 32
-    spriteID: b759cb4bd3984784cbd50f8dedc5fd68
+    spriteID: a0faf81e7c258664e862245ae57a58e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -244,60 +244,60 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1296415109
-    name: RunEnemy
+    guid: 1439185030
+    name: Run_Right
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: RunEnemy_Frame_0
+    - name: Run_Right_Frame_0
       frameIndex: 0
       cellRect:
         x: 15
         y: 0
         width: 42
         height: 32
-      spriteId: 00bc89e9085c88544a3fad4921e36d8c
-    - name: RunEnemy_Frame_1
+      spriteId: 090fdc6888c11e646805e650cb7a34db
+    - name: Run_Right_Frame_1
       frameIndex: 1
       cellRect:
         x: 16
         y: 0
         width: 41
         height: 33
-      spriteId: e12557a67c9de254098a1646cb568d64
-    - name: RunEnemy_Frame_2
+      spriteId: 1c0ff92f809278e47b3168475d5c5b02
+    - name: Run_Right_Frame_2
       frameIndex: 2
       cellRect:
         x: 17
         y: 0
         width: 38
         height: 32
-      spriteId: ec7dd39c5a802bd478dbb78419f6b8a0
-    - name: RunEnemy_Frame_3
+      spriteId: e54db730225dae34c9a0b192140a75d7
+    - name: Run_Right_Frame_3
       frameIndex: 3
       cellRect:
         x: 18
         y: 0
         width: 35
         height: 32
-      spriteId: 8c4ae296d2f014242b931fb5a9c756fb
-    - name: RunEnemy_Frame_4
+      spriteId: b88b6d250f138554796f7f4a6cce0bb3
+    - name: Run_Right_Frame_4
       frameIndex: 4
       cellRect:
         x: 18
         y: 0
         width: 36
         height: 33
-      spriteId: ef088f93fdce1ab42934e77eece865e5
-    - name: RunEnemy_Frame_5
+      spriteId: b659de7ed7df7f440bc73d93b2e8b7b3
+    - name: Run_Right_Frame_5
       frameIndex: 5
       cellRect:
         x: 17
         y: 0
         width: 38
         height: 32
-      spriteId: b759cb4bd3984784cbd50f8dedc5fd68
+      spriteId: a0faf81e7c258664e862245ae57a58e6
     linkedCells: []
     parentIndex: -1
   platformSettings:

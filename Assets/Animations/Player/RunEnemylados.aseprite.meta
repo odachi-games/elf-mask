@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9fe6df04385f54746a61b1fa171c0124
+guid: cf533b1b779a6874086aedfd91db065a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639054630187860787
+  platformSettingsDirtyTick: 639054685382276513
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: RunEnemy_Frame_0
+  - name: RunEnemylados_Frame_0
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 42
       height: 32
-    spriteID: 00bc89e9085c88544a3fad4921e36d8c
+    spriteID: e3f2a666b325cb0418ca9e4cc41d4ead
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 4}
-  - name: RunEnemy_Frame_1
+  - name: RunEnemylados_Frame_1
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 41
       height: 33
-    spriteID: e12557a67c9de254098a1646cb568d64
+    spriteID: 87601bf8d35641f4fb0faa4dd76c25e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: RunEnemy_Frame_2
+  - name: RunEnemylados_Frame_2
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 45
       width: 38
       height: 32
-    spriteID: ec7dd39c5a802bd478dbb78419f6b8a0
+    spriteID: 56b955592c0410c478ff1837c5f330a7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 45}
-  - name: RunEnemy_Frame_3
+  - name: RunEnemylados_Frame_3
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 85
       width: 35
       height: 32
-    spriteID: 8c4ae296d2f014242b931fb5a9c756fb
+    spriteID: 018ed9613d34bc444bf73faaa260ecd6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 85}
-  - name: RunEnemy_Frame_4
+  - name: RunEnemylados_Frame_4
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 44
       width: 36
       height: 33
-    spriteID: ef088f93fdce1ab42934e77eece865e5
+    spriteID: 5e0d698b749605946bd50cb7606daa36
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 53, y: 44}
-  - name: RunEnemy_Frame_5
+  - name: RunEnemylados_Frame_5
     originalName: 
     pivot: {x: 0.4, y: 0.4}
     alignment: 9
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 85
       width: 38
       height: 32
-    spriteID: b759cb4bd3984784cbd50f8dedc5fd68
+    spriteID: b46b393938d6d4248878abd521b14712
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -244,60 +244,60 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1296415109
-    name: RunEnemy
+    guid: 1940322804
+    name: RunEnemylados
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: RunEnemy_Frame_0
+    - name: RunEnemylados_Frame_0
       frameIndex: 0
       cellRect:
-        x: 15
+        x: 7
         y: 0
         width: 42
         height: 32
-      spriteId: 00bc89e9085c88544a3fad4921e36d8c
-    - name: RunEnemy_Frame_1
+      spriteId: e3f2a666b325cb0418ca9e4cc41d4ead
+    - name: RunEnemylados_Frame_1
       frameIndex: 1
       cellRect:
-        x: 16
+        x: 7
         y: 0
         width: 41
         height: 33
-      spriteId: e12557a67c9de254098a1646cb568d64
-    - name: RunEnemy_Frame_2
+      spriteId: 87601bf8d35641f4fb0faa4dd76c25e6
+    - name: RunEnemylados_Frame_2
       frameIndex: 2
       cellRect:
-        x: 17
+        x: 9
         y: 0
         width: 38
         height: 32
-      spriteId: ec7dd39c5a802bd478dbb78419f6b8a0
-    - name: RunEnemy_Frame_3
+      spriteId: 56b955592c0410c478ff1837c5f330a7
+    - name: RunEnemylados_Frame_3
       frameIndex: 3
       cellRect:
-        x: 18
+        x: 11
         y: 0
         width: 35
         height: 32
-      spriteId: 8c4ae296d2f014242b931fb5a9c756fb
-    - name: RunEnemy_Frame_4
+      spriteId: 018ed9613d34bc444bf73faaa260ecd6
+    - name: RunEnemylados_Frame_4
       frameIndex: 4
       cellRect:
-        x: 18
+        x: 10
         y: 0
         width: 36
         height: 33
-      spriteId: ef088f93fdce1ab42934e77eece865e5
-    - name: RunEnemy_Frame_5
+      spriteId: 5e0d698b749605946bd50cb7606daa36
+    - name: RunEnemylados_Frame_5
       frameIndex: 5
       cellRect:
-        x: 17
+        x: 9
         y: 0
         width: 38
         height: 32
-      spriteId: b759cb4bd3984784cbd50f8dedc5fd68
+      spriteId: b46b393938d6d4248878abd521b14712
     linkedCells: []
     parentIndex: -1
   platformSettings:

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9fe6df04385f54746a61b1fa171c0124
+guid: babd03063fee1294392500dec14c39ee
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 20.4
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639054630187860787
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,38 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: RunEnemy_Frame_0
+  - name: Totemfinale_Frame_0
     originalName: 
-    pivot: {x: 0.4, y: 0.4}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 53
-      y: 4
-      width: 42
-      height: 32
-    spriteID: 00bc89e9085c88544a3fad4921e36d8c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 53, y: 4}
-  - name: RunEnemy_Frame_1
-    originalName: 
-    pivot: {x: 0.4, y: 0.4}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 41
-      height: 33
-    spriteID: e12557a67c9de254098a1646cb568d64
+      width: 16
+      height: 32
+    spriteID: 9b41f0c9ddc85e04cb1b3499ddfee71e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,59 +140,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-  - name: RunEnemy_Frame_2
+    uvTransform: {x: -4, y: 4}
+  - name: Totemfinale_Frame_1
     originalName: 
-    pivot: {x: 0.4, y: 0.4}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 45
-      width: 38
-      height: 32
-    spriteID: ec7dd39c5a802bd478dbb78419f6b8a0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 45}
-  - name: RunEnemy_Frame_3
-    originalName: 
-    pivot: {x: 0.4, y: 0.4}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 53
-      y: 85
-      width: 35
-      height: 32
-    spriteID: 8c4ae296d2f014242b931fb5a9c756fb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 53, y: 85}
-  - name: RunEnemy_Frame_4
-    originalName: 
-    pivot: {x: 0.4, y: 0.4}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 53
       y: 44
-      width: 36
-      height: 33
-    spriteID: ef088f93fdce1ab42934e77eece865e5
+      width: 16
+      height: 32
+    spriteID: 82a6ff8fd35e9854792c7761e61321f9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,19 +160,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 53, y: 44}
-  - name: RunEnemy_Frame_5
+    uvTransform: {x: -4, y: 44}
+  - name: Totemfinale_Frame_2
     originalName: 
-    pivot: {x: 0.4, y: 0.4}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 85
-      width: 38
+      y: 84
+      width: 16
       height: 32
-    spriteID: b759cb4bd3984784cbd50f8dedc5fd68
+    spriteID: 88558dc5d779eff48813c5aa10a365e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,92 +180,72 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 85}
+    uvTransform: {x: -4, y: 84}
+  - name: Totemfinale_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 4
+      width: 16
+      height: 32
+    spriteID: 742ce614174c09849bcc1febdd652b3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 20, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1296415109
-    name: RunEnemy
+    guid: 1538808492
+    name: Totemfinale
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: RunEnemy_Frame_0
+    - name: Totemfinale_Frame_0
       frameIndex: 0
       cellRect:
-        x: 15
+        x: 0
         y: 0
-        width: 42
+        width: 32
         height: 32
-      spriteId: 00bc89e9085c88544a3fad4921e36d8c
-    - name: RunEnemy_Frame_1
+      spriteId: 9b41f0c9ddc85e04cb1b3499ddfee71e
+    - name: Totemfinale_Frame_1
       frameIndex: 1
       cellRect:
-        x: 16
+        x: 0
         y: 0
-        width: 41
-        height: 33
-      spriteId: e12557a67c9de254098a1646cb568d64
-    - name: RunEnemy_Frame_2
+        width: 32
+        height: 32
+      spriteId: 82a6ff8fd35e9854792c7761e61321f9
+    - name: Totemfinale_Frame_2
       frameIndex: 2
       cellRect:
-        x: 17
+        x: 0
         y: 0
-        width: 38
+        width: 32
         height: 32
-      spriteId: ec7dd39c5a802bd478dbb78419f6b8a0
-    - name: RunEnemy_Frame_3
+      spriteId: 88558dc5d779eff48813c5aa10a365e6
+    - name: Totemfinale_Frame_3
       frameIndex: 3
       cellRect:
-        x: 18
+        x: 0
         y: 0
-        width: 35
+        width: 32
         height: 32
-      spriteId: 8c4ae296d2f014242b931fb5a9c756fb
-    - name: RunEnemy_Frame_4
-      frameIndex: 4
-      cellRect:
-        x: 18
-        y: 0
-        width: 36
-        height: 33
-      spriteId: ef088f93fdce1ab42934e77eece865e5
-    - name: RunEnemy_Frame_5
-      frameIndex: 5
-      cellRect:
-        x: 17
-        y: 0
-        width: 38
-        height: 32
-      spriteId: b759cb4bd3984784cbd50f8dedc5fd68
+      spriteId: 742ce614174c09849bcc1febdd652b3f
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 64}
+  canvasSize: {x: 32, y: 32}
