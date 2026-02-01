@@ -48,6 +48,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     
     private void PlayerDead()
     {
+        GameEventManager.Instance.TriggerEvent(new GameEvent("LoseGame"));
         playerAnimations.SetDeadAnimation();
     }
 }

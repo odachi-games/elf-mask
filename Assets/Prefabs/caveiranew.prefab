@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: caveiranew
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 0953ecafa23bc974fb49a1f7cfc8d60a, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 0953ecafa23bc974fb49a1f7cfc8d60a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1837032051
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 0953ecafa23bc974fb49a1f7cfc8d60a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3

@@ -3,3 +3,7 @@ Library
 Logs
 obj
 .vs
+Build
+
+*.cache
+*.log

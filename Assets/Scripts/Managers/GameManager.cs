@@ -6,7 +6,12 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private Player player;
 
     public Player Player => player;
-    
+
+    private void Start()
+    {
+        player.ResetPlayer();
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
